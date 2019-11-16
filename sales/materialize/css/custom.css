@@ -27,3 +27,7 @@ a:link {
 .modal {
     padding: 10px;;
 }
+
+.del-modal {
+    text-align: center;
+}
