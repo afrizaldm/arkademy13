@@ -1,0 +1,29 @@
+nav {
+    padding-left: 15px;
+    padding-right: 15px;
+    background: transparent;
+}
+
+.brand-logo {
+    color: #e57373 !important;
+}
+
+td {
+    color: rgb(138, 132, 132);;
+}
+
+.edit {
+    color: #bce69d !important;
+}
+
+.delete {
+    color: #f97c86;
+}
+
+a:link {
+    cursor: pointer;
+}
+
+.modal {
+    padding: 10px;;
+}
