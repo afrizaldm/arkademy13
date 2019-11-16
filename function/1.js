@@ -48,6 +48,3 @@ function biodata(name, age) {
         interest_in_coding: true
     }
 }
-
-let data = biodata("Afrizal Dian Mahendra", 23)
-data

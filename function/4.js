@@ -15,6 +15,3 @@ function findPair(Arrays) {
     }
     return pasang
 }
-
-let data = findPair([20,50,70,10,70,30,10,30,50])
-data

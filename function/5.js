@@ -4,5 +4,3 @@ function createTriangle(x) {
         console.log(" ".repeat(x-i) + "*".repeat(i))
     }
 }
-
-createTriangle(8)

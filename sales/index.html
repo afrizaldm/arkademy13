@@ -132,15 +132,17 @@
                     </select>
                     <label>Product</label>
                 </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <input id="category" type="text" class="validate">
-                        <label for="category">Drink</label>
-                    </div>
+                <div class="input-field col s12">
+                    <select name="category">
+                        <option value="" disabled selected>Category</option>
+                        <option value="1">Food</option>
+                        <option value="2">Drink</option>
+                    </select>
+                    <label>Product</label>
                 </div>
                 <div class="row">
                     <div class="input-field col s12">
-                        <input id="price" type="text" class="validate">
+                        <input id="price" type="number" class="validate">
                         <label for="price">Price</label>
                     </div>
                 </div>
@@ -210,8 +212,14 @@
 
     <!--JavaScript at end of body for optimized loading-->
     <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+    <script type="text/javascript" src="src/js/jquery-3.4.1.min.js"></script>
     <script>
         M.AutoInit();
+        $(document).ready(function () {
+            var elems = document.querySelectorAll('#modal3');
+            var instances = M.Modal.init(elems, {});
+            console.log(elems)
+        });
     </script>
 </body>
 

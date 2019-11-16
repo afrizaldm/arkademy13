@@ -3,8 +3,8 @@ function username(text) {
 }
 
 function password(text) {
-    return /((.)\1{3})\*([A-Za-z]{3})/.test(text)
+    return /(([0-9])\1\1)\*|(([a-zA-Z])\1\1)/.test(text)
 }
 
-data = password("123*asb")
+data = password("111*AAA")
 data

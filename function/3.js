@@ -4,6 +4,3 @@ function cek_kata(text) {
         return /([A-Za-z])+/.test(e)
     })
 }
-
-let data = cek_kata("2 pasang sSndal Hilang1")
-data
